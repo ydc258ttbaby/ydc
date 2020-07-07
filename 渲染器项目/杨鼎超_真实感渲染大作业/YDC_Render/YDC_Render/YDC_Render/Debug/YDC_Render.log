@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  mathYdc.cpp
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\mathYdc.cpp(282,83): warning C4305: 'argument': truncation from 'double' to 'float'
+  YDC_Render.cpp
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\loadOBJ.h(16,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\winScreen.h(50,9): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\YDC_Render.cpp(18,1): warning C4005: 'PI': macro redefinition
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\mathYdc.h(12): message : see previous definition of 'PI'
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\YDC_Render.cpp(46,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\YDC_Render.cpp(55,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\YDC_Render.cpp(94,30): warning C4101: 'n1': unreferenced local variable
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\YDC_Render.cpp(94,23): warning C4101: 'v5': unreferenced local variable
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\YDC_Render.cpp(233,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\YDC_Render\YDC_Render.cpp(234,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  YDC_Render.vcxproj -> D:\personal file\杨鼎超_真实感渲染大作业\YDC_Render\YDC_Render\Debug\YDC_Render.exe
