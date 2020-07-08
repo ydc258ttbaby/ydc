@@ -1,0 +1,2 @@
+D:\ydc_file\TestCode\TestOfMutable\Debug\TestOfMutable.exe
+D:\ydc_file\TestCode\TestOfMutable\Debug\TestOfMutable.pdb

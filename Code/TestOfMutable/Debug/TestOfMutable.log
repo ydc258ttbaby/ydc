@@ -1,0 +1,3 @@
+﻿  TestOfMutable.cpp
+D:\ydc_file\TestCode\TestOfMutable\TestOfMutable.cpp(18,9): error C3490: 'b1' cannot be modified because it is being accessed through a const object
+D:\ydc_file\TestCode\TestOfMutable\TestOfMutable.cpp(25,14): error C3892: 'AInstance': you cannot assign to a variable that is const
