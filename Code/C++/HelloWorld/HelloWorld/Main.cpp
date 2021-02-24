@@ -1,45 +1,26 @@
 #include<iostream>
-class A
+//void PrintName(std::string name) // 可接受左值和右值
+//{
+//	std::cout<<name<<std::endl;
+//}
+//void PrintName(std::string& name) // 只接受左值引用，不接受右值
+//{
+//	std::cout << name << std::endl;
+//}
+void PrintName(const std::string& name) // 接受左值和右值，把右值当作const lvalue&
 {
-public:
-	void print()
-	{
-		std::cout << "A\n";
-	}
-	virtual void Vprint()
-	{
-		std::cout << "VA\n";
-	}
-};
-class B :public A
-{
-public:
-	void print()
-	{
-		std::cout << "B\n";
-	}
-	void Vprint() override
-	{
-		std::cout << "VB\n";
-	}
-};
+	std::cout << name << std::endl;
+}
+//void PrintName(std::string&& name) // 接受右值引用
+//{
+//	std::cout << name << std::endl;
+//}
 int main()
 {
-	A* ab = new B();
-	B* bb = new B();
-	ab->print();
-	bb->print();
-	ab->Vprint();
-	bb->Vprint();
+	std::string firstName = "yang";
+	std::string lastName = "dingchao";
+	std::string fullName = firstName + lastName;
+	PrintName(fullName);
+	PrintName(firstName+lastName);
 	std::cin.get();
-
-
-
-
-
-
-}
-
-}
-
 }
