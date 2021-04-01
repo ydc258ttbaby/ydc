@@ -1,9 +1,0 @@
-
-clear all;
-x = linspace(-10,10,10000);
-y = sinc(x);
-subplot(231)
-plot(x,y)
-y_f = fft(y);
-subplot(232)
-plot(x,abs(y_f))
